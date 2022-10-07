@@ -1,0 +1,67 @@
+body{
+    background-color: #1B1A1A;
+    color: white;
+}
+
+header{
+    text-align: center;
+    color:white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.322);
+}
+
+div{
+ background-color: #403D3D;
+ border-radius: 10px;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+}
+
+#texto {
+    width: 300px;
+    align-items: center;
+}
+
+input{
+   border-radius: 10px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: #797575;
+    color: white;
+}
+
+#popup{
+    border-radius: 10px;
+    background-color:#06070E;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    display: none;
+}
+
+#container{
+    display: flex;
+}
+
+#caixa{
+    padding: 15px;
+    margin: 5px;
+    width: 400px;
+    background-color: #403D3D;
+
+}
+
+#calc {
+    height: 100px;
+    width: 170px;
+    padding: 3px;
+}
+
+footer{
+    font: normal;
+    color: white;
+    text-align: center;
+}

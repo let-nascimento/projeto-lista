@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./list.css">
+    <link rel="SHORTCUT ICON" HREF="./img/1005638.png">
+    <title>Lista De Presentes</title>
+</head>
+
+<body>
+    <header>
+        <h1>Presentes para mim <font color="#FAF33E">
+                <3 </font>
+        </h1>
+    </header>
+    <input type="text" id="texto"></input>
+    <button onclick="add()" id="button">adicionar</button>
+    <div id="popup">
+        <p>Digite o valor do produto</p>
+        <input type="text" id="valor"></input>
+        <button onclick="preco()" id="button">adicionar</button>
+        <button onclick="fechar()" id="button">fechar</button>
+    </div>
+    <span id="container">
+        <div id="caixa">
+            <h2>Me mimem!</h2>
+            <ul id="lista">
+
+            </ul>
+
+        </div>
+        <div id="calc">
+            <p><b>A soma dos valores é de: </b></p>
+            <span id="total"></span>
+        </div>
+    </span>
+
+    <footer>
+        <p>&copy; Letícia Nascimento Mathias</p>
+    </footer>
+    <script src="./list.js"></script>
+</body>
+
+</html>
